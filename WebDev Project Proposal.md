@@ -24,12 +24,16 @@ where users can become friends by mutually accepting friend requests
 similar to LinkedIn, and another approach where users can follow other
 users, with no requirement for mutual following similar to Twitter. We
 plan to explore both ideas and see which fits better within the
-context of our app. We plan to use TheMealDB API
+context of our app. 
+
+We plan to use TheMealDB API
 (https://www.themealdb.com/api.php). It’s an API that contains a
 diverse database of recipes and offers a variety of features. Some of
 these include the ability to search for a meal by name, look for
 recipes that use specific ingredients, and find recipes that begin
-with a certain letter. We are planning to include several types of
+with a certain letter. 
+
+We are planning to include several types of
 real-time behavior in our web application. Firstly, we will give users
 the option to have a status where they can update what they are
 currently cooking. Similarly to how the Spotify web application shows
@@ -44,7 +48,9 @@ they are cooking so their friends can either learn how to make
 something new or cook along with them. Finally, we are planning to
 incorporate some sort of “new recommended recipes” feature, possibly
 through the use of a new list of recipes that could be sent to users
-periodically. While users are very important to our database, we also
+periodically. 
+
+While users are very important to our database, we also
 hope to store data for each of them. One of the big components of our
 app will cover recipes that users should be able to save in some form-
 currently imagined like how users may be able to ‘pin’ items in
@@ -65,7 +71,9 @@ follow other users in an unbalanced manner similar to Twitter. For
 this state, we will only be storing the two user ids to establish a
 relationship we can then use to populate other parts of the
 application such as seeing friends’ statuses or potentially suggesting
-friends’ cooked recipes. Something neat we are planning to include is
+friends’ cooked recipes. 
+
+Something neat we are planning to include is
 the ability to have live video streaming and live viewing on our
 website. This would be used so that if someone is trying a new recipe
 or showing others how to do a recipe, they can stream it to the
@@ -75,7 +83,9 @@ implementing this using WebRTC, which is a “free, open-source project
 providing web browsers and mobile applications with real-time
 communication via simple application programming interfaces.” We’re
 doing this in JavaScript, based on this tutorial:
-https://youtu.be/DvlyzDZDEq4. Our first experiment involved testing
+https://youtu.be/DvlyzDZDEq4. 
+
+Our first experiment involved testing
 out our chosen API, TheMealDB. We wanted to examine the features of
 the API, so we decided to create a simple web application that would
 allow users to search for all recipes beginning with a particular
@@ -97,7 +107,9 @@ with utilizing Elixir code and tying it into the necessary code for
 rendering a web page to display our application. We did face some
 challenges while trying to figure out how to actually render our form,
 but we spent a lot of time looking through documentation and online
-resources and were able to learn how to accomplish this task.\ For
+resources and were able to learn how to accomplish this task.
+
+For
 planning what to do for the “neat” thing, we decided to try including
 a livestreaming element. To figure out the best way to go about
 including it, we decided to test live streaming APIs to see what would
@@ -118,7 +130,9 @@ feature with the WebRTC API. It worked how we wanted to and seemed
 like it would be easier to implement into the entire functionality of
 our entire application. Through this experimentation with the WebRTC
 API we learned that implementing the live streaming feature with
-JavaScript would be the best way to go. One anticipated user would be
+JavaScript would be the best way to go. 
+
+One anticipated user would be
 a college student or other young adult type. The reason this type of
 user may be looking to use our application could be as simple as
 looking for an application that gives them recipes. Although our
@@ -135,7 +149,9 @@ cook-along with friends. In this case, users might plan to cook at the
 same time as each other for the sense of community. They may have one
 person who is familiar with the recipe stream them making the meal or
 everyone might try out a new recipe together and report back to each
-other about how it went and how they liked the meal. Another
+other about how it went and how they liked the meal. 
+
+Another
 anticipated user could be a younger chef who is just getting started
 with cooking. Someone around the age of 11-13 who is not very
 experienced in the kitchen will not have access to or be able to work
@@ -148,7 +164,9 @@ supervision of a parent or guardian, they would be able to log into
 the app and input a few simple ingredients that their guardian has
 approved of and then find an easy recipe to make. They can also learn
 by watching their older friends or relatives live stream on the app as
-well. A third potential type of user could be a parent who often cooks
+well. 
+
+A third potential type of user could be a parent who often cooks
 for their family. This would be someone who is interested in cooking a
 wide variety of meals, as sometimes they just want to get dinner on
 the table quickly with whatever is in the fridge, while other times
