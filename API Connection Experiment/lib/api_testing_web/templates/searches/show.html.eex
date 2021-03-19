@@ -1,0 +1,15 @@
+<h1>Search Recipes Results</h1>
+
+<ul>
+  <li>
+    <strong>Letter:</strong>
+    <%= @searches.letter %>
+    <ul>
+      <%= for r <- ApiTesting.get_titles(@searches.letter) do %>
+      <li><%= r %></li>
+      <% end %>
+    </ul>
+  </li>
+</ul>
+
+<span><%= link "Back", to: Routes.searches_path(@conn, :new) %></span>

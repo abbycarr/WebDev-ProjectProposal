@@ -1,0 +1,2 @@
+<h1><%= link "Go to Search!", to: Routes.searches_path(@conn, :new) %></h1>
+<p> Heyo! Click on the link above to see the searching capabilities we implemented using the MealDB API!</p>
